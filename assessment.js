@@ -81,10 +81,4 @@
         result = result.replace(/\{userName\}/g, userName);
         return result;
     }
-
-    /*テストコード
-    console.assert(
-        assessment('太郎') === assessment('太郎'),
-        'テスト失敗'
-    );*/
 })();
