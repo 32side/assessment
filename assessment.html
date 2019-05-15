@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>32side作_あなたのいいところ診断</title>
-    <link rel="stylesheet" href="assessment.css">
+  <meta charset="UTF-8">
+  <title>あなたのいいところ診断</title>
+  <link rel="stylesheet" href="assessment.css">
 </head>
 <body>
-    <h1>あなたのいいところを診断します。</h1>
-    <p>診断したい名前を入れてください</p>
-    <input type="text" id="user-name" size="40" maxlength="20">
+  <header>
+    <h1>あなたのいいところは？</h1>
+  </header>
+  <main>
+    <p>診断したい名前を入力してください</p>
+    <input type="text" id="user-name" size="40" maxlength="20" placeholder="名前を入力してください">
     <button id="assessment">診断する</button>
     <div id="result-area"></div>
-    <div id="tweet-area">
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="tweet-area"></div>
     <script src="assessment.js"></script>
+  </main>
+  <footer>
+    <small>＠ 32side 作</small>
+  </footer>
 </body>
 </html>
