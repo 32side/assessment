@@ -1,19 +1,29 @@
-body{
-    background-color: #04A6EB;
-    color: #FDFFFF;
-    width: 500px;
-    margin-right: auto;
-    margin-left: auto;
+body {
+  background-color: #04A6EB;
+  color: #FDFFFF;
+  width: 500px;
+  margin: auto;
+  text-align: center;
 }
 
-button{
-    color: #FDFFFF;
-    padding: 5px 20px;
-    background-color: #337AB7;
-    border-color: black;
-    border-style: solid;
+h1 {
+  background: rgb(60, 73, 255);
+  border: outset 2px rgb(206, 206, 206);
+  border-radius: 10px;
 }
 
-input{
-    height: 26px;
+button {
+  color: #FDFFFF;
+  padding: 5px 20px;
+  background-color: rgb(60, 73, 255);
+  border-radius: 5px;
+}
+
+input {
+  height: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 25px;
 }
